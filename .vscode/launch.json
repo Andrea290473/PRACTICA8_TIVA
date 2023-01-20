@@ -11,7 +11,7 @@
             "targetArchitecture": "arm",
             "filterStderr": true,
             "serverStarted": "Info\\ :\\ [\\w\\d\\.]*:\\ hardware",
-            "program": "D:\\SEPTIMO_SEMESTRE\\MICROS\\PROGRAMAS\\Practica_3TM4C123\\gcc\\main.axf",
+            "program": "D:\\SEPTIMO_SEMESTRE\\MICROS\\PROGRAMAS\\Practica_8TM4C123\\gcc\\main.axf",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
@@ -21,7 +21,7 @@
             "setupCommands": [
             { "text" : "target extended-remote :3333"},
         
-            { "text" : "load D:/SEPTIMO_SEMESTRE/MICROS/PROGRAMAS/Practica_3TM4C123/gcc/main.axf"},
+            { "text" : "load D:/SEPTIMO_SEMESTRE/MICROS/PROGRAMAS/Practica_8TM4C123/gcc/main.axf"},
             ]
         }       
                         ]

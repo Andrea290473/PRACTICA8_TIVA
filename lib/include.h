@@ -7,6 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include <stdio.h>
 
 #define _40MHZ 9
 #define _20MHZ 19
@@ -17,7 +18,6 @@
 
 #include "TM4C123GH6PM.h"
 #include "GPIO.h"
-#include "PLL.h"
-#include "UART.h"
+
 
 #endif /* INCLUDE_H_ */

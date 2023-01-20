@@ -22,7 +22,13 @@ gcc/GPIO.o: GPIO.c lib/include.h \
  d:\10\ 2021.07\arm-none-eabi\include\machine\stdlib.h \
  d:\10\ 2021.07\arm-none-eabi\include\string.h \
  d:\10\ 2021.07\arm-none-eabi\include\sys\string.h \
- d:\10\ 2021.07\arm-none-eabi\include\math.h lib/TM4C123GH6PM.h \
+ d:\10\ 2021.07\arm-none-eabi\include\math.h \
+ d:\10\ 2021.07\arm-none-eabi\include\stdio.h \
+ d:\10\ 2021.07\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
+ d:\10\ 2021.07\arm-none-eabi\include\sys\types.h \
+ d:\10\ 2021.07\arm-none-eabi\include\sys\_pthreadtypes.h \
+ d:\10\ 2021.07\arm-none-eabi\include\machine\types.h \
+ d:\10\ 2021.07\arm-none-eabi\include\sys\stdio.h lib/TM4C123GH6PM.h \
  lib/../CMSIS/Include/core_cm4.h lib/../CMSIS/Include/core_cmInstr.h \
  lib/../CMSIS/Include/core_cmFunc.h lib/../CMSIS/Include/core_cm4_simd.h \
- lib/../lib/system_TM4C123.h lib/GPIO.h lib/PLL.h lib/UART.h
+ lib/../lib/system_TM4C123.h lib/GPIO.h
