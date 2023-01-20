@@ -166,11 +166,11 @@ int main(void)
             ///////////////////
             
              OLED_YX( 0, 0 );
-             OLED_Write_String( "OLED SSD1306" );
+             OLED_Write_String( "ANDREA" );
                              Delay_ms(1000);
 
              OLED_YX(1, 0);
-             OLED_Write_String ("TM4C123");
+             OLED_Write_String ("NIETO");
                          Delay_ms(1000);
             
             /////////////////////
@@ -179,7 +179,7 @@ int main(void)
             
             for (count = 0; count <= 100; count++){
                 OLED_YX(2, 0 );
-                OLED_Write_String( "Count:" );
+                OLED_Write_String( "BIOMED" );
                 OLED_YX(2, 8);
                 OLED_Write_Integer(count);
                 Delay_ms(100);
@@ -420,7 +420,7 @@ void OLED_Write_String( char *s )
 void OLED_Write_Integer(uint8_t  i)
 {
      char s[20];
-     sprintf( s, "%d", i );
+     //sprintf( s, "%d", i );
      OLED_Write_String( s );
      OLED_Write_String( "     " );
 }
@@ -435,7 +435,7 @@ void OLED_Write_Integer(uint8_t  i)
  ******************************************************************************/
 
 
-
+/*
 void OLED_Write_Float(float f)
 {
     char *buf11;
@@ -444,7 +444,7 @@ void OLED_Write_Float(float f)
     OLED_Write_String(buf11);
     OLED_Write_String( "     " );
 }
-
+*/
 
 void Delay_ms(int time_ms)
 {
